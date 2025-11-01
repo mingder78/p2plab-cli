@@ -22,7 +22,7 @@ program
           console.log(chalk.green("This is a success message!"));
           console.log(chalk.red("This is an error message!"));
         } else {
-          console.log(chalk.yellow("Please provide a name using -n or --name."));
+          console.log(chalk.yellow("Please use --help to get help."));
         }
       });
 
